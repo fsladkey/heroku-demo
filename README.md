@@ -19,10 +19,8 @@
   - `heroku run bundle exec rake db:migrate`
 
 ## 1. Heroku toolbelt
-First, if you haven't already, install the Heroku toolbelt onto your computer, which allows you to run Heroku commands from the terminal. There are two ways to install:
-
-1. via MacPorts `sudo port install heroku`
-2. via [direct download file] [1]
+First, if you haven't already, install the Heroku toolbelt onto your computer, which allows you to run Heroku commands from the terminal.
+The easiest way is via [direct download file] [1]
 [1]: https://toolbelt.heroku.com
 
 ## 2. Logging into Heroku
