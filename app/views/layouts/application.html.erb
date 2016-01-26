@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ReactDemoSkeleton</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% if current_user %>
+  Logged in as <%= current_user.email %>
+  <%= button_to "Log out", session_url, method: :delete %>
+<% else %>
+  <a href="<%= new_session_url %>">Log in</a> ||
+  <a href="<%= new_user_url %>">Create an account</a>
+<% end %>
+
+<% flash.each do |msg_type, msg| %>
+  <p><%= msg_type %>: <%= msg %></p>
+<% end %>
+
+<p>Everything above this rendered by Rails in application layout.</p>
+<hr>
+
+<%= yield %>
+
+</body>
+</html>
