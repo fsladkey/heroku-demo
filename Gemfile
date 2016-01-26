@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+# ruby '2.1.2'
 
 gem 'rails', '4.2.3'
 gem 'pg'
@@ -16,7 +16,7 @@ gem 'react-rails', '~> 1.3.0'
 gem 'flux-rails-assets', '~> 2.1.0'
 
 group :production do
-  
+
 end
 
 group :development, :test do

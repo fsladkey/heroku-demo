@@ -16,8 +16,6 @@ heroku logs -a app-name
 Adding Git Remote
 git remote add heroku heroku-git-url-here
 
-
-
 gems
 rails_12factor
 
