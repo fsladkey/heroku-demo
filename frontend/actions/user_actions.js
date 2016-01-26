@@ -1,3 +1,6 @@
+var AppDispatcher = require('../dispatcher/app_dispatcher');
+var UserConstants = require('../constants/user_constants');
+
 var UserActions = {
   receiveUsers: function (users) {
     AppDispatcher.dispatch({
@@ -13,3 +16,5 @@ var UserActions = {
     });
   }
 };
+
+module.exports = UserActions;

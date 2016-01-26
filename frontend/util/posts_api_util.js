@@ -1,3 +1,5 @@
+var PostActions = require('../actions/post_actions');
+
 var PostsApiUtil = {
   fetchPosts: function () {
     $.ajax({
@@ -34,3 +36,5 @@ var PostsApiUtil = {
     })
   }
 };
+
+module.exports = PostApiUtil;

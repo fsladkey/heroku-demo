@@ -1,3 +1,5 @@
+var PostConstants = require('../constants/post_constants');
+
 var PostActions = {
   receivePosts: function (posts) {
     AppDispatcher.dispatch({
@@ -13,3 +15,5 @@ var PostActions = {
     });
   }
 };
+
+module.exports = PostActions;

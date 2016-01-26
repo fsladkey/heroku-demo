@@ -1,3 +1,5 @@
+var UserActions = require('../actions/user_actions');
+
 var UsersApiUtil = {
   fetchUsers: function () {
     $.ajax({
@@ -34,3 +36,6 @@ var UsersApiUtil = {
     })
   }
 };
+
+
+module.exports = UsersApiUtil;
