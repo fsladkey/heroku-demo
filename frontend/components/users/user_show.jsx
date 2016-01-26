@@ -45,6 +45,7 @@ var UserShow = React.createClass({
 
         <h3>Users posts:</h3>
         <ul className="users-index">{ posts }</ul>
+        <a href={"#/"}>All Users</a>
       </div>
     );
   },
