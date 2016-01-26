@@ -6,6 +6,14 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "postinstall": "./node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+   "node": "4.1.1",
+   "npm": "2.1.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
