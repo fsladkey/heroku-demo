@@ -8,12 +8,10 @@ heroku keys:add
 
 Create App
 dashboard.heroku.com
-eroku apps:create mycapstoneprojectapp
+heroku apps:create mycapstoneprojectapp
 
 Specify an App
 heroku logs -a app-name
-
-
 
 Adding Git Remote
 git remote add heroku heroku-git-url-here

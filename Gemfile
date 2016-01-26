@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 ruby '2.1.2'
 
 gem 'rails', '4.2.3'
@@ -13,13 +14,13 @@ gem 'pry-rails'
 gem 'bcrypt-ruby', require: 'bcrypt'
 gem 'react-rails', '~> 1.3.0'
 gem 'flux-rails-assets', '~> 2.1.0'
-gem 'faker'
 
-# group :production do
-#   gem 'rails_12factor'
-# end
+group :production do
+  
+end
 
 group :development, :test do
+  gem 'faker'
   gem 'annotate'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
