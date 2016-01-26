@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Contains Users and Posts. User auth all in regular Rails.",
   "main": "webpack.config.js",
+  /*"engines": {
+   "node": "4.1.1",
+   "npm": "2.1.x"
+  },*/
+  /*"scripts": {
+    "postinstall": "./node_modules/.bin/webpack"
+  }*/
   "directories": {
     "test": "test"
   },
